@@ -1,0 +1,52 @@
+Category,Ref,Description,Part Number,Qty,Unit Price (USD),Line Total (USD),Source,Notes
+JLCPCB - Assembled,CN1/CN2,CM5 Board-to-Board Connector 100-pin 0.4mm,C597931,2,,Included in PCBA,JLCPCB,DF40C-100DS-0.4V(51); Amphenol CM5 combined footprint
+JLCPCB - Assembled,U1,Battery Charger and Power Path IC,C80200,1,,Included in PCBA,JLCPCB,BQ25895RTWR; QFN-24
+JLCPCB - Assembled,U2,5V Boost Converter,C544673,1,,Included in PCBA,JLCPCB,TPS61235PRWLR; VQFN-9; input from battery SYS rail
+JLCPCB - Assembled,U3,USB-PD Controller,C132291,1,,Included in PCBA,JLCPCB,FUSB302BMPX; WFQFN-14; I2C0 at GPIO2/3
+JLCPCB - Assembled,U4,3.3V LDO Regulator,C92402,1,,Included in PCBA,JLCPCB,SGM2036-3.3YN5G/TR; SOT-23-5
+JLCPCB - Assembled,U5,1.8V LDO Regulator,C700371,1,,Included in PCBA,JLCPCB,SGM2036-1.8YN5G/TR; SOT-23-5
+JLCPCB - Assembled,U6,I2S Class D Audio Amplifier,C910544,1,,Included in PCBA,JLCPCB,MAX98357AETE+T; WLCSP-15; mono left channel
+JLCPCB - Assembled,USB1,USB-C 16-pin Charging Port,C2858270,1,,Included in PCBA,JLCPCB,Power-only port; PD negotiated via FUSB302
+JLCPCB - Assembled,USB2,USB-C 24-pin Data Port,C53121393,1,,Included in PCBA,JLCPCB,USB 3.0 SuperSpeed + USB 2.0; VBUS via load switch
+JLCPCB - Assembled,CARD1,Mini PCIe Slot 52-pin Right Angle,C266898,1,,Included in PCBA,JLCPCB,For EC25 LTE modem; USB 2.0 only internally
+JLCPCB - Assembled,SIM1,Nano SIM Card Socket 7-pin,C7529384,1,,Included in PCBA,JLCPCB,Paired with EC25 modem
+JLCPCB - Assembled,RF1/RF2,U.FL Antenna Connector,C47986640,2,,Included in PCBA,JLCPCB,LTE main and diversity ports
+JLCPCB - Assembled,CN3,40-pin 0.5mm ZIF FPC Connector Bottom Contact,C2797220,1,,Included in PCBA,JLCPCB,Display interface; pin 40 NC
+JLCPCB - Assembled,Q1,N-Channel MOSFET SOT-23,C8490,1,,Included in PCBA,JLCPCB,LBSS138LT1G; VBUS load switch stage 1
+JLCPCB - Assembled,Q2,P-Channel MOSFET SOT-23,C15155,1,,Included in PCBA,JLCPCB,AO3407A; VBUS load switch stage 2
+JLCPCB - Assembled,J_BAT,JST-PH 2-pin SMD Battery Connector,C265003,1,,Included in PCBA,JLCPCB,B2B-PH-SM4-TBT
+JLCPCB - Assembled,LED1-4,0603 Red LED,C2286,4,,Included in PCBA,JLCPCB,Status and power indicators
+JLCPCB - Assembled,L1,2.2uH 3A Inductor 1210,TBD,1,,Included in PCBA,JLCPCB,TPS61235P boost inductor; LCSC to confirm in submitted order
+JLCPCB - Assembled,L2,1uH 5A Inductor 1210,TBD,1,,Included in PCBA,JLCPCB,BQ25895 charge inductor; LCSC to confirm in submitted order
+JLCPCB - Assembled,R*/C*,0402 Resistors and Capacitors (all values),Various,~45,,Included in PCBA,JLCPCB,Per KiCad netlist export; auto-matched by JLCPCB BOM tool
+JLCPCB - Fabrication,,PCB Fabrication 5 boards 90x160mm 4-layer,JLC04161H-3313,5,,50.90,JLCPCB,
+JLCPCB - Assembly,,Economic PCBA 2 boards top side,,2,,109.79,JLCPCB,Includes solder paste and stencil
+JLCPCB - Shipping,,Shipping,,1,44.90,44.90,JLCPCB,
+JLCPCB - Shipping,,Customs and Tariffs,,1,43.31,43.31,JLCPCB,
+JLCPCB - Shipping,,Discount,,1,-20.00,-20.00,JLCPCB,
+JLCPCB - Shipping,,Sales Tax,,1,13.92,13.92,JLCPCB,
+JLCPCB TOTAL,,,,,,225.86,,
+JLCPCB CNC,,Aluminum Plate 88x155x3mm Aluminum 6061 Black Anodized,,2,12.00,24.00,JLCPCB CNC,4x M2 mounting holes; structural backing and heat spreader for CM5
+JLCPCB CNC TOTAL,,,,,,24.00,,
+Mouser,,Quectel EC25AFXGA-MINIPCIE 4G LTE Modem,277-C25AFXGAMINIPCIE,1,75.16,75.16,Mouser,Cat 4 LTE + 3G; mini PCIe form factor; USB 2.0 internally
+Mouser,,Shipping (UPS Ground),,1,8.49,8.49,Mouser,
+Mouser,,Estimated Tariff,,1,11.27,11.27,Mouser,
+Mouser TOTAL,,,,,,94.92,,
+Amazon,,Raspberry Pi Compute Module 5 - CM5108064 8GB/64GB/WiFi,,1,185.00,185.00,Amazon,Main compute; quad-core ARM Cortex-A76 2.4GHz; BT 5.0
+Amazon,,Li-Po Battery 10000mAh 3.7V PH2.0 with Protection Board,,1,16.00,16.00,Amazon,Approx 100x60x11mm; approx price
+Amazon,MIC1/MIC2,INMP441 I2S MEMS Microphone Module (5-pack),,1,17.00,17.00,Amazon,2 used in build; 3 spares; hand solder; approx price
+Amazon,SW1-3,Right-Angle Tactile Switch 6x6x5mm (20-pack),,1,8.47,8.47,Amazon,Vol Up/Vol Down/Power; hand solder through-hole
+Amazon,,M2 Screw Nut Washer Assortment 645pcs,,1,6.00,6.00,Amazon,Assembly hardware; approx price
+Amazon,,Silicone Thermal Pads 0.5/1/1.5mm (100pcs),,1,7.00,7.00,Amazon,PCB-to-aluminum plate thermal interface; approx price
+Amazon,RF3,WiFi and BT Dual Band U.FL Antenna 2.4+5GHz,,2,4.50,9.00,Amazon,CM5 WiFi and Bluetooth internal antennas; approx price
+Amazon,RF4/RF5,LTE 4G Omnidirectional U.FL Antenna 15cm,,2,3.50,7.00,Amazon,EC25 main and diversity antenna ports; approx price
+Amazon,J_SPK,8 Ohm 1W Mini Speaker with JST-PH1.25 (4-pack),,1,7.00,7.00,Amazon,Audio output; 3 spares; approx price
+Amazon,,Shipping and Tax,,,,20.69,Amazon,
+Amazon TOTAL,,,,,,,,"Cart subtotal confirmed at $267.31; $288.00 with shipping and tax"
+Amazon TOTAL,,,,,,288.00,,
+DXQ,J_DISP,7in 1080x1920 AMOLED Display with Capacitive Touch,,1,56.00,56.00,DXQ,ICNA3512 driver IC; FT3519T touch controller; 39-pin 0.3mm FPC; 165Hz VRR
+DXQ,,FPC Adapter Cable 0.3mm 39-pin to 0.5mm 40-pin,,1,10.00,10.00,TBD,MAX ESTIMATE - not finalized; pitch mismatch adapter between display and PCB connector
+DXQ TOTAL,,,,,,66.00,,FPC cable is an upper estimate
+Needs Ordering,J4,2.54mm 3-pin Male Header - UART Debug Port,,1,0.50,0.50,Amazon,Not yet ordered; PinHeader_1x03_P2.54mm; hand solder
+Needs Ordering,J1/J2 (PCB side),2.54mm 3-pin Female Socket for Mic Modules,,2,0.50,1.00,Amazon,Not yet ordered; INMP441 modules plug into these; hand solder
+GRAND TOTAL,,Universal AI Terminal,,,,700.28,,FPC cable at max estimate; UART and mic headers (~$1.50) not yet ordered

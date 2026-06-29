@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d8f6cc22-5d8f-4ef3-be1a-e16645fd6b0a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 77.47 63.5)
+		(size 59.69 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ba74b02-f230-46e1-8c09-20a7da3ebc08")
+		(property "Sheetname" "Cellular"
+			(at 77.47 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cellular.kicad_sch"
+			(at 77.47 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HACK CLUB RELATED"
+				(path "/d8f6cc22-5d8f-4ef3-be1a-e16645fd6b0a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 104.14)
+		(size 46.99 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9903ec15-d82e-4cad-8953-82dd9725f5ab")
+		(property "Sheetname" "Audio"
+			(at 24.13 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 24.13 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HACK CLUB RELATED"
+				(path "/d8f6cc22-5d8f-4ef3-be1a-e16645fd6b0a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 21.59)
+		(size 46.99 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "affece3b-32c0-4188-b0e7-4601418f9774")
+		(property "Sheetname" "Power"
+			(at 24.13 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 24.13 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HACK CLUB RELATED"
+				(path "/d8f6cc22-5d8f-4ef3-be1a-e16645fd6b0a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 62.23)
+		(size 46.99 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dda41246-2285-4d59-a405-5b2b52bf611a")
+		(property "Sheetname" "Display"
+			(at 24.13 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 24.13 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HACK CLUB RELATED"
+				(path "/d8f6cc22-5d8f-4ef3-be1a-e16645fd6b0a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 101.6)
+		(size 59.69 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfcbc628-5c7f-410c-81db-18bf837d88f9")
+		(property "Sheetname" "controls"
+			(at 77.47 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controls.kicad_sch"
+			(at 77.47 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HACK CLUB RELATED"
+				(path "/d8f6cc22-5d8f-4ef3-be1a-e16645fd6b0a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 21.59)
+		(size 59.69 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee7b0d64-6543-470f-a19e-bedda8243614")
+		(property "Sheetname" "CM5"
+			(at 77.47 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM5.kicad_sch"
+			(at 77.47 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HACK CLUB RELATED"
+				(path "/d8f6cc22-5d8f-4ef3-be1a-e16645fd6b0a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

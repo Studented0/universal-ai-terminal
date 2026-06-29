@@ -1,0 +1,13 @@
+@"
+# KiCad auto-generated
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+*.000
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore -Encoding UTF8
