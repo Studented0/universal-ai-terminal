@@ -45,8 +45,9 @@ Amazon,,Shipping and Tax,,,,20.69,Amazon,
 Amazon TOTAL,,,,,,,,"Cart subtotal confirmed at $267.31; $288.00 with shipping and tax"
 Amazon TOTAL,,,,,,288.00,,
 DXQ,J_DISP,7in 1080x1920 AMOLED Display with Capacitive Touch,,1,56.00,56.00,DXQ,ICNA3512 driver IC; FT3519T touch controller; 39-pin 0.3mm FPC; 165Hz VRR
-DXQ,,FPC Adapter Cable 0.3mm 39-pin to 0.5mm 40-pin,,1,10.00,10.00,TBD,MAX ESTIMATE - not finalized; pitch mismatch adapter between display and PCB connector
-DXQ TOTAL,,,,,,66.00,,FPC cable is an upper estimate
-Needs Ordering,J4,2.54mm 3-pin Male Header - UART Debug Port,,1,0.50,0.50,Amazon,Not yet ordered; PinHeader_1x03_P2.54mm; hand solder
-Needs Ordering,J1/J2 (PCB side),2.54mm 3-pin Female Socket for Mic Modules,,2,0.50,1.00,Amazon,Not yet ordered; INMP441 modules plug into these; hand solder
-GRAND TOTAL,,Universal AI Terminal,,,,700.28,,FPC cable at max estimate; UART and mic headers (~$1.50) not yet ordered
+DXQ TOTAL,,,,,,56.00,,
+PMD Way,,FPC Adapter Cable 0.3mm to 0.5mm,SKU 92320164 (39-pin) or 92320165 (40-pin),1,30.00,30.00,PMD Way,Listed price $19.95; estimate includes shipping headroom; pin count not yet confirmed against connectors (Hirose FH26-39S-0.3SHW panel side, KH-FG0.5-H2.0-40PIN board side) - awaiting support reply
+PMD Way TOTAL,,,,,,30.00,,Pin count pending vendor confirmation
+,J4,2.54mm 3-pin Male Header - UART Debug Port,,1,5,5,Amazon,; PinHeader_1x03_P2.54mm; hand solder
+,J1/J2 (PCB side),2.54mm 3-pin Female Socket for Mic Modules,,2,5,10,Amazon,; INMP441 modules plug into these; hand solder
+GRAND TOTAL,,Universal AI Terminal,,,,734.32,,Cable estimate from PMD Way ($30); pin count TBD pending support reply; UART and mic headers (~$1.50) not yet ordered
