@@ -6,6 +6,7 @@ A pocketable AI terminal that runs Claude Code and Ollama over LTE. Custom carri
 ---
 
 ## Screenshots
+<img width="554" height="971" alt="image" src="https://github.com/user-attachments/assets/5b8c7323-cc59-439a-8434-2fda608359f7" />
 
 <img width="485" height="793" alt="Screenshot 2026-06-30 094633" src="https://github.com/user-attachments/assets/483ea5d5-be49-4eee-a808-c80d7e40a9d3" />
 <img width="1234" height="862" alt="Screenshot 2026-06-30 094547" src="https://github.com/user-attachments/assets/769ba77c-d8a8-4b2c-b674-d24f488ab921" />
