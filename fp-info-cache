@@ -1,4 +1,4 @@
-27434182494195427
+27452007371685264
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2813,6 +2813,76 @@ speaker CUI
 0
 2
 2
+CM5IO
+BatteryHolder_Keystone_3034_1x20mm
+Keystone 3034 SMD battery holder for 2020, 2025 and 2032 coincell batteries. http://www.keyelco.com/product-pdf.cfm?p=798
+Keystone type 3034 coin cell retainer
+0
+3
+2
+CM5IO
+EDAC 690-019-298-412
+
+
+0
+23
+23
+CM5IO
+Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal
+Molex FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+24
+23
+CM5IO
+L_Bourns_SRP5030CC
+Inductor, Bourns, SRP5030T, 5.7mmx5.2mm (Script generated with StandardBox.py) (https://www.bourns.com/data/global/pdfs/SRP5030T.pdf)
+Inductor Bourns_SRP5030T
+0
+2
+2
+CM5IO
+M.2 M Key socket
+
+
+0
+73
+73
+CM5IO
+MTCONN_UBAF30-D2011
+USB3 Stacked type A socket
+USB3 TypeA
+0
+22
+19
+CM5IO
+MountingHole_2.7mm_M2.5_DIN965
+Mounting Hole 2.7mm, no annular, M2.5, DIN965
+mounting hole 2.7mm no annular m2.5 din965
+0
+0
+0
+CM5IO
+Raspberry-Pi-5-Compute-Module
+Raspberry Pi 5 Compute Module
+Raspberry Pi 5 Compute Module
+0
+200
+200
+CM5IO
+SDCARD_MOLEX_503398-1892
+
+
+0
+14
+11
+CM5IO
+TRJG0926HENL
+https://p.globalsources.com/IMAGES/PDT/SPEC/690/K1160305690.pdf
+RJ45 Magjack
+0
+20
+20
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
