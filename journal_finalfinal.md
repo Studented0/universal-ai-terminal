@@ -69,6 +69,14 @@ Started on the CM5 sheet and had to verify every single pin from scratch. the pi
 caught two design errors while doing this. the LDO enable pins were tied to +3V3 which is a  problem since the LDO cannot turn itself on. changed both to +5V from the boost converter, which is available first. also found the CM5 has a dedicated PWR_Button pin (pin 92) that handles power on and off without needing a GPIO at all, just wires straight to a button and ground.
 
 added a second USB-C port for data after realizing the 16 pin charging port physically cannot carry USB 3.0 because it does not have the SuperSpeed pairs. added a 24 pin connector with a two-transistor load switch for VBUS control. finished all six sheets including cellular, audio, and controls. the cellular sheet was fast since most of the PCIe pairs on the mini PCIe slot are NC because the EC25 uses USB 2.0 internally.
+<img width="1240" height="860" alt="image" src="https://github.com/user-attachments/assets/ec6782e0-06b3-4a98-9af0-e2652d119102" />
+<img width="1298" height="896" alt="image" src="https://github.com/user-attachments/assets/94dcb9c0-1a49-4171-a477-cabbdda7c306" />
+<img width="1286" height="930" alt="image" src="https://github.com/user-attachments/assets/80be16b3-d177-4b55-928c-ddc75313ebf3" />
+<img width="1239" height="880" alt="image" src="https://github.com/user-attachments/assets/cbb14fb8-b590-44c8-9609-fe44fae40751" />
+<img width="1253" height="876" alt="image" src="https://github.com/user-attachments/assets/c2be8890-ddc8-457f-adad-514913a78c86" />
+<img width="1234" height="862" alt="image" src="https://github.com/user-attachments/assets/03f7b9ce-034e-4c44-b377-df8a499b0db5" />
+
+
 
 ---
 
@@ -80,7 +88,12 @@ Started PCB layout. board is 88 by 155mm, 4-layer JLC04161H-3313 stackup. set up
 
 placement took most of the morning. 
 
-The MIPI DSI routing was the hardest part. the CM5 J2 connector and the FPC connector are not directly across from each other and getting all differential pairs routed cleanly without vias was not possible with this placement. Ended up routing some pairs through the back copper, which is fine because the BCM2712 supports lane polarity inversion in device tree. D2 pair ended up inverted; will fix in the DTS. All five DSI pairs ended up within 5mm of each other in total length, which is within tolerance. USB 3.0 RX pair was also inverted at the CM5 side and needs a matching DTS fix.
+The MIPI DSI routing was the hardest part. the CM5 J2 connector and the FPC connector are not directly across from each other and getting all differential pairs routed cleanly without vias was not possible with this placement. Ended up routing some pairs through the back copper, which is fine because the BCM2712 supports lane polarity inversion in device tree. D2 pair ended up inverted; will fix in the DTS. All five DSI pairs ended up within 5mm of each other in total length, which is within tolerance. USB 3.0 RX pair was also inverted at the CM5 side and needs a matching DTS fix. All layers shown below.
+<img width="469" height="796" alt="image" src="https://github.com/user-attachments/assets/b443c6eb-8d2c-4eaa-a6f4-ad9c6e6dc935" />
+<img width="482" height="803" alt="image" src="https://github.com/user-attachments/assets/9eca2d2c-1bf7-4bc1-8d4c-1ddc91534b26" />
+<img width="477" height="791" alt="image" src="https://github.com/user-attachments/assets/2e1119bc-4a0f-48f0-a812-9521886fdfc3" />
+<img width="485" height="793" alt="image" src="https://github.com/user-attachments/assets/c93306f9-d89a-48c9-aba4-797a568cb2d3" />
+
 
 ---
 
@@ -91,6 +104,8 @@ _Time spent: 4h_
 The FPC cable is the last unresolved problem. The display has a 0.3mm pitch 39 pin connector and the carrier board has a 0.5mm pitch 40 pin ZIF. those do not connect directly. DXQ quoted custom cables but also mentioned a $0.79 adapter from Taobao. the problem is that adapter is only 31 pins and the display needs all 39. pins 32 through 38 are the touch controller I2C, reset, and interrupt lines. a 31-pin cable leaves the touch completely disconnected. sent a follow up asking how that would work. display itself is $56 regardless of how the cable gets resolved.
 
 figured out the physical stack. aluminum plate on the bottom, thermal pad on top of that, PCB, battery, display. the thermal pad covers the full back face of the board so the aluminum cannot short anything even if it contacts a pad (the aluminum is also anodized to prevent that). CM5 heat goes through thermal vias to the pad to the plate. anodized black finish adds another layer of insulation.
+<img width="1148" height="553" alt="image" src="https://github.com/user-attachments/assets/28b8355a-620a-4aec-a0e3-8c2553f38567" />
+<img width="1471" height="381" alt="image" src="https://github.com/user-attachments/assets/8dbcfb93-6fb9-47c4-bb9f-ee549524e314" />
 
 
 ---
@@ -106,3 +121,7 @@ built a full itemized BOM CSV
 got the GitHub repo set up and pushed. 
 
 next step is hearing back on X tier, then placing every order at once. 
+<img width="1397" height="882" alt="Screenshot 2026-06-29 102104" src="https://github.com/user-attachments/assets/834d9945-3170-4864-8003-e250d4bab683" />
+<img width="386" height="413" alt="Screenshot 2026-06-29 122206" src="https://github.com/user-attachments/assets/71ec69b3-4cef-4b7f-9ff6-a03fe9bb6fd0" />
+<img width="398" height="815" alt="image" src="https://github.com/user-attachments/assets/186161cc-05f4-48b8-993f-11b9b6d7eb2e" />
+
