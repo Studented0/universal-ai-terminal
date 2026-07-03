@@ -22,7 +22,7 @@ A pocketable AI terminal that runs Claude Code and Ollama over LTE. Custom carri
 <img width="405" height="658" alt="image" src="https://github.com/user-attachments/assets/791651d2-7627-4473-bd83-8e97ce98134f" />
 (CNC aluminum Enclosure)
 <img width="634" height="926" alt="image" src="https://github.com/user-attachments/assets/e5eefaf2-da54-4c90-b80c-a764aabe7ce4" />
-Assembly with enclosure (not including display)
+Assembly with enclosure  the switches are also going to be 90 degree switches, not vertical ones (not including display)
 
 ---
 
